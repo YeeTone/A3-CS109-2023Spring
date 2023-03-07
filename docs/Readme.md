@@ -60,7 +60,7 @@ abbcc
 2. Test data scale:
 
 - For $10\%$ testcases, $n_i = 1$ for the compressed String $s$; 
-- For another $10\%$ testcases, there is only $c_0$ and $n_0$ in the compressed String.
+- For another $10\%$ testcases, there is only $c_0$ and $n_0$ in the compressed String $s$.
 - For $20\%$ testcases, $m = 1$ or $n = 1$ for the target matrix size; 
 - For $60\%$ testcases, $n_i \lt 10$ for the compressed String $s$; 
 - For $100\%$ testcases, $m,n \le 200$ for the target matrix size and $n_i \le 100$ for the compressed String $s$;
