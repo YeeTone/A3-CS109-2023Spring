@@ -46,7 +46,7 @@ The number of safe areas in the battlefield of Red Alert 2.
 
 **Explanation**
 
-![image](https://user-images.githubusercontent.com/64548919/223601583-b12bfab4-c385-408d-8bf3-a83c5b87f45d.png)
+![image](https://user-images.githubusercontent.com/64548919/223616451-db70ddbf-c61b-4f69-90ce-a52daffdb65d.png)
 
 The battlefield is shown in the figure. The blocks in green are irradiated by Desolators and those in red can be damaged by Grand Cannons. The blocks in yellow can be both damaged by Desolators and Grand Cannons.
 Considering (0,0) and (3,4) are captured by Grand Cannons, there are 6 safe areas i.e. (0, 4), (1, 0), (2, 4), (3, 3), (4, 3) and (4, 4).
