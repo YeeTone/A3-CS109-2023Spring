@@ -12,7 +12,7 @@ public class SafetyAreaInRA2 {
             deal(attackable, xi, yi, DESOLATOR);
         }
 
-        for (int i = 0; i < m; i++) {
+        for (int i = 0; i < k; i++) {
             int oi = sc.nextInt(), pi = sc.nextInt();
             deal(attackable, oi, pi, GRAND_CANNON);
         }
