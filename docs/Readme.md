@@ -11,7 +11,7 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
 ![image](https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png)
 
 
-- Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causing considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it.
+- Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it.
 
 ![image](https://user-images.githubusercontent.com/64548919/223598956-fc4a66eb-3665-47ba-94b4-5894839afd0b.png)
 
