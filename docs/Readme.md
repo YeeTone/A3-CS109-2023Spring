@@ -25,7 +25,7 @@ Then following $k$ lines define $o_i,p_i$, the positions of Grand Cannons.
 
 ### Output Format
 
-The number of safe area in the battlefield of Red Alert 2.
+The number of safe areas in the battlefield of Red Alert 2.
 
 ### Sample with Explanation
 
