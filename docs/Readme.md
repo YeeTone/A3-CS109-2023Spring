@@ -1,8 +1,69 @@
 # Assignment 3
 
+## Problem ?. Safe Areas in RA2(Easy, ? points)
+
+Recently, thanks to a series of video uploaders such as WM=HBK08 and =HY=Moon3, Red Alert 2 becomes a popular game in China. Suppose you are a conscript(好兄弟) in the $n*n$ battlefield of Red Alert 2, and there are $m$ Desolators(辐射工兵) and $k$ Grand Cannons(巨炮) of enemies. Now you are given the positions of Desolators and Grand Cannons and need to find out the number of safe areas in the battlefield.
+
+Here is the introduction to Desolators and Grand Cannons in this problem:
+
+- Desolator: The Desolator uses a radiation cannon to irradiate the ground around him(blocks in green), damaging all units around him.
+
+![image](https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png)
+
+
+- Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causing considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it.
+
+![image](https://user-images.githubusercontent.com/64548919/223598956-fc4a66eb-3665-47ba-94b4-5894839afd0b.png)
+
+### Input Format
+
+The first line gives $n,m,k$.
+
+Then the following $m$ lines define $x_i,y_i$, the positions of Desolator.
+
+Then following $k$ lines define $o_i,p_i$, the positions of Grand Cannons.
+
+### Output Format
+
+The number of safe area in the battlefield of Red Alert 2.
+
+### Sample with Explanation
+
+**Input**
+
+```text
+5 2 2
+3 0
+1 2
+0 0
+3 4
+```
+
+**Output**
+```text
+6
+```
+
+**Explanation**
+
+![image](https://user-images.githubusercontent.com/64548919/223601583-b12bfab4-c385-408d-8bf3-a83c5b87f45d.png)
+
+The battlefield is shown in the figure. The blocks in green are irradiated by Desolators and those in red can be damaged by Grand Cannons. The blocks in yellow can be both damaged by Desolators and Grand Cannons.
+Considering (0,0) and (3,4) are captured by grand channels, there are 6 safe areas i.e. (0, 4), (1, 0), (2, 4), (3, 3), (4, 3) and (4, 4).
+
+### Hint
+
+1. You can try to make use of `boolean[][]`.
+2. It is recommended to do the boundary checking before accessing array element.
+3. Test data scale:
+
+- For $10\%$ testcases, $n = 1$; 
+- For another $20\%$ testcases, $m = 0$ or $k = 0$; 
+- For $100\%$ testcases, $1 \le n \le 100$, $0 \le m,n \le 25$, $0 \le m+n \le 25$;
+
 ## Problem ?. Compressed Spiral Matrix(Hard, ? points)
 
-Now you are required to fill in the matrix of size $m × n$.
+In this problem, you are required to fill in the matrix of size $m × n$.
 You are given matrix size $m$, $n$ and a compressed String $s$ containing lower letters and numbers. 
 And you need to do the following tasks in this problem:
 
@@ -13,6 +74,13 @@ And you need to do the following tasks in this problem:
 ![image](https://user-images.githubusercontent.com/64548919/223476252-46beba66-8c0e-49ea-a194-1ec4a83e8429.png)
 
 (3) Print out the alphabet matrix after decompression.
+
+### Input Format
+The first line gives $m$ and $n$, and the second line gives the compressed String $s$.
+
+### Output Format
+
+The sqiral matrix after decompression.
 
 ### Sample with Explanation
 
