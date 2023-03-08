@@ -45,11 +45,7 @@ public class SpiralMatrix {
     };
 
     private static boolean outOfBoundary(char[][] matrix, int m, int n, int x, int y) {
-        return !(0 <= x && x < m && 0 <= y && y < n);
-    }
-
-    private static boolean notEmpty(char[][] matrix, int x, int y){
-        return matrix[x][y] != '\u0000';
+        return !(0 <= x && x < m && 0 <= y && y < n) || matrix[x][y] != '\u0000';
     }
 
     public static char[][] spiralMatrix(String decompressed, int m, int n) {
@@ -61,12 +57,12 @@ public class SpiralMatrix {
 
             int[] currentDirection = DIRECTION_ARRAY[directionIndex];
             int repeatTimes = 0;
-            while (outOfBoundary(matrix, m, n, x + currentDirection[0], y + currentDirection[1])
-            || notEmpty(matrix, x+ currentDirection[0], y+ currentDirection[1])) {
+            while (outOfBoundary(matrix, m, n,
+                    x + currentDirection[0], y + currentDirection[1])) {
                 directionIndex = (directionIndex + 1) % DIRECTION_ARRAY.length;
                 currentDirection = DIRECTION_ARRAY[directionIndex];
                 repeatTimes++;
-                if(repeatTimes >= DIRECTION_ARRAY.length){
+                if (repeatTimes >= DIRECTION_ARRAY.length) {
                     break;
                 }
             }
