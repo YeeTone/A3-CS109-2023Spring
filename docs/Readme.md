@@ -2,7 +2,7 @@
 
 ## Problem ?. Safe Areas in RA2(Easy, ? points)
 
-Recently, thanks to a series of video uploaders such as WM=HBK08 and =HY=Moon3, Red Alert 2 becomes a popular game in China. Suppose you are a conscript(好兄弟) in the $n*n$ battlefield of Red Alert 2, and there are $m$ Desolators(辐射工兵) and $k$ Grand Cannons(巨炮) of enemies. Now you are given the positions of Desolators and Grand Cannons and need to find out the number of safe areas in the battlefield.
+Recently, thanks to a series of video uploaders such as WM=HBK08 and =HY=Moon3, Red Alert 2 becomes a popular game in China. Suppose you are a Conscript(好兄弟) in the $n*n$ battlefield of Red Alert 2, and there are $m$ Desolators(辐射工兵) and $k$ Grand Cannons(巨炮) of enemies. Now you are given the positions of Desolators and Grand Cannons and need to find out the number of safe areas in the battlefield.
 
 Here is the introduction to Desolators and Grand Cannons in this problem:
 
@@ -49,7 +49,7 @@ The number of safe area in the battlefield of Red Alert 2.
 ![image](https://user-images.githubusercontent.com/64548919/223601583-b12bfab4-c385-408d-8bf3-a83c5b87f45d.png)
 
 The battlefield is shown in the figure. The blocks in green are irradiated by Desolators and those in red can be damaged by Grand Cannons. The blocks in yellow can be both damaged by Desolators and Grand Cannons.
-Considering (0,0) and (3,4) are captured by grand channels, there are 6 safe areas i.e. (0, 4), (1, 0), (2, 4), (3, 3), (4, 3) and (4, 4).
+Considering (0,0) and (3,4) are captured by Grand Cannons, there are 6 safe areas i.e. (0, 4), (1, 0), (2, 4), (3, 3), (4, 3) and (4, 4).
 
 ### Hint
 
