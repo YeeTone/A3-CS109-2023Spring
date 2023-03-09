@@ -60,7 +60,7 @@ Considering (0,0) and (3,4) are captured by Grand Cannons, there are 6 safe area
 - For $10\%$ testcases, $n = 1$; 
 - For another $20\%$ testcases, $m = 0$ or $k = 0$; 
 - For $60\%$ testcases, $0 \le x_i, y_i, o_i, p_i \lt n$;
-- For $100\%$ testcases, $1 \le n \le 100$, $0 \le m,n \le 25$, $0 \le m+n \le 25$, $-50 \le x_i, y_i, o_i, p_i \le 150$;
+- For $100\%$ testcases, $1 \le n \le 100$, $0 \le m,k \le 25$, $0 \le m+k \le 25$, $-50 \le x_i, y_i, o_i, p_i \le 150$;
 
 ## Problem ?. Compressed Spiral Matrix(Hard, ? points)
 
