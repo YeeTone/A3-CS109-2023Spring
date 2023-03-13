@@ -72,7 +72,7 @@ And you need to do the following tasks in this problem:
 
 (2) Organize the sqiral matrix counterclockwise using the decompressed String $s'$, starting from the bottom left corner.
 
-![image](https://user-images.githubusercontent.com/64548919/223476252-46beba66-8c0e-49ea-a194-1ec4a83e8429.png)
+![image](https://user-images.githubusercontent.com/64548919/224639380-fb7e5914-8c50-4168-9e63-32660ed297e7.png)
 
 (3) Print out the alphabet matrix after decompression.
 
@@ -112,7 +112,7 @@ After: abbcccddddeeeeeffffg
 
 Next, we start from the bottom left corner and organize the $4×5$ sqiral matrix counterclockwise using $s'$(abbcccddddeeeeeffffg).
 
-![image](https://user-images.githubusercontent.com/64548919/223479172-4433a9a1-b90a-4353-9d54-bfa56908a81f.png)
+![image](https://user-images.githubusercontent.com/64548919/224639091-11930723-26b5-4221-9d12-8e724ce275b1.png)
 
 Finally, we print the matrix out and get the output in the sample.
 
