@@ -11,9 +11,9 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
 ![image](https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png)
 
 
-- Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it.
+- Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it. Considering it is a defensive towel, the area captured by it(block in pink) is also unsafe.
 
-![image](https://user-images.githubusercontent.com/64548919/223598956-fc4a66eb-3665-47ba-94b4-5894839afd0b.png)
+![image](https://user-images.githubusercontent.com/64548919/224633639-d24aad0b-effa-4d7e-b972-76fb41075e80.png)
 
 ### Input Format
 
@@ -46,10 +46,10 @@ The number of safe areas in the battlefield of Red Alert 2.
 
 **Explanation**
 
-![image](https://user-images.githubusercontent.com/64548919/223616451-db70ddbf-c61b-4f69-90ce-a52daffdb65d.png)
+![image](https://user-images.githubusercontent.com/64548919/224636727-a21fc33d-0e64-4de4-8ed1-854c3765f55f.png)
 
 The battlefield is shown in the figure. The blocks in green are irradiated by Desolators and those in red can be damaged by Grand Cannons. The blocks in yellow can be both damaged by Desolators and Grand Cannons.
-Considering (0,0) and (3,4) are captured by Grand Cannons, there are 6 safe areas i.e. (0, 4), (1, 0), (2, 4), (3, 3), (4, 3) and (4, 4).
+Considering blocks in pink i.e. (0,0) and (3,4) are captured by Grand Cannons, there are 6 safe areas i.e. (0, 4), (1, 0), (2, 4), (3, 3), (4, 3) and (4, 4).
 
 ### Hint
 
