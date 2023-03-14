@@ -50,11 +50,11 @@ ooooo
 
 ## Problem ?. Tetris Game(Medium, ? points)
 
-Tetris is a traditional game. In this game, tetrominoes will fall from the sky and keep <u>move downward until they touch the bottom of the field or land on a piece that had been placed before it</u>. Moreover, **if one line is completely filled, the grids in this line will be eliminated.**
+Tetris is a traditional game. In this game, tetrominoes will fall from the sky and keep move downward until they touch the bottom of the field or land on a piece that had been placed before it. Moreover, **if one line is completely filled, the grids in this line will be eliminated.** Also, **if one tetromino exceed the upper bound of the field (touching the bound is acceptable), the game will be ended immediately.**   
 
 Below is the 7 types of tetrominoes.
 
-![image](https://user-images.githubusercontent.com/75410443/225078945-28f0328f-62ee-40f0-8f81-74c4d25d634e.png)
+![image](https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png)
 
 **In our case, the tetromino will not be rotated.** 
 
