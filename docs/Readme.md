@@ -48,6 +48,93 @@ ooooo
 2
 ```
 
+## Problem ?. Tetris Game(Medium, ? points)
+
+Tetris is a traditional game. In this game, tetrominoes will fall from the sky and keep <u>move downward until they touch the bottom of the field or land on a piece that had been placed before it</u>. Moreover, **if one line is completely filled, the grids in this line will be eliminated.**
+
+Below is the 7 types of tetrominoes.
+
+![image](https://user-images.githubusercontent.com/75410443/225058010-a02fcfb8-4c9c-42e2-8cbc-509a6113970e.png)
+
+**In our case, the tetromino will not be rotated.** 
+
+### Input Format
+
+First line gives the width $w$ and height $h$ of the field.
+
+Second line give the number of tetrominoes $n$.
+
+The following $n$ lines define $T$ and $S$ of each tetromino.
+
+$T$ means the type of the tetromino.
+
+$S$ means the index of the leftmost point of the tetromino.
+
+### Output Format
+
+The field with all tetrominoes placed and eliminated.
+
+The grid of the field should be either 1 (filled) or 0 (unfilled).
+
+### Samples with Explanation
+
+#### Sample 1
+
+**Input**
+
+```
+5 5
+3
+L 0
+O 2
+O 3
+```
+
+**output**
+
+```
+00000
+00011
+10011
+10110
+11110
+```
+
+![image](https://user-images.githubusercontent.com/75410443/225057948-3089d2b6-0d9c-4116-9f03-5a8af55c968a.png)
+
+
+**Explanation**
+
+The third tetromino fall on the second tetromino. And none of the lines is filled completely.
+
+#### Sample 2
+
+**Input**
+
+```
+6 6
+L 0
+O 2
+J 4
+T 1
+```
+
+**Output**
+
+```
+000000
+000000
+000000
+011100
+101001
+101101
+```
+
+**Explanation**
+
+![image](https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png)
+
+When the third tetromino came, the bottom line is completely filled therefore eliminated. So, the final field will be like the above picture. 
 
 
 ## 
