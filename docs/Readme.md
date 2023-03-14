@@ -48,16 +48,20 @@ ooooo
 2
 ```
 
-## Problem ?. Tetris Game(Medium, ? points)
+## Problem ?. Trivial Tetris Game(Medium, ? points)
 
-Tetris is a traditional game. In this game, tetrominoes will fall from the sky and keep move downward until they touch the bottom of the field or land on a piece that had been placed before it. Moreover, **if one line is completely filled, the grids in this line will be eliminated.** Also, **if one tetromino exceed the upper bound of the field (touching the bound is acceptable), the game will be ended immediately.**   
+Tetris is a traditional game. In this game, tetrominoes will fall from the sky and keep move downward until they touch the bottom of the field or land on a piece that had been placed before it. 
+
+In our trivial version of Tetris, there are several things that you should know:
+* The tetromino will not be rotated.
+* If one line is completely filled, the grids in this line will be eliminated.
+* If one tetromino exceeds the upper bound of the field (touching the bound is acceptable), the game will be ended immediately.
 
 Below is the 7 types of tetrominoes.
 
 ![image](https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png)
 
-**In our case, the tetromino will not be rotated.** 
-
+ 
 ### Input Format
 
 First line gives the width $w$ and height $h$ of the field.
