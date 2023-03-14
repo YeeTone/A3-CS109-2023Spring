@@ -26,7 +26,7 @@ We ensure two things：
 
 ### Output Format 
 
-A number indicate the detail of the specific square.
+A number indicates the detail of the specific square.
 
 ### Sample with Explanation
 
