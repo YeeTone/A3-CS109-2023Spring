@@ -62,7 +62,7 @@ Below is the 7 types of tetrominoes.
 
 First line gives the width $w$ and height $h$ of the field.
 
-Second line give the number of tetrominoes $n$.
+Second line gives the number of tetrominoes $n$.
 
 The following $n$ lines define $T$ and $S$ of each tetromino.
 
@@ -72,9 +72,9 @@ $S$ means the index of the leftmost point of the tetromino.
 
 ### Output Format
 
-The field with all tetrominoes placed and eliminated.
+The field with all tetrominoes correctly placed and eliminated.
 
-The grid of the field should be either 1 (filled) or 0 (unfilled).
+Each grid of the field should be either 1 (filled) or 0 (unfilled).
 
 ### Samples with Explanation
 
@@ -105,7 +105,7 @@ O 3
 
 **Explanation**
 
-The third tetromino fall on the second tetromino. And none of the lines is filled completely.
+The third tetromino falls on the second tetromino. And none of the lines is filled completely.
 
 #### Sample 2
 
@@ -134,7 +134,7 @@ T 1
 
 ![image](https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png)
 
-When the third tetromino came, the bottom line is completely filled therefore eliminated. So, the final field will be like the above picture. 
+After the third tetromino came, the bottom line is completely filled therefore eliminated. So, the final field will be like the above picture. 
 
 
 ## 
