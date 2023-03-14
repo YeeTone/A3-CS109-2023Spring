@@ -22,7 +22,7 @@ The last line will be the coordinate.
 We ensure two things：
 
 -  1 ≤ n ≤ 100
-- **0 ≤ x＜n and 0 ≤ y＜n**
+- **0 ≤ x＜n and 0 ≤ y＜n, the upper left squares have smaller coordinate than the lower right squares**
 
 ### Output Format 
 
