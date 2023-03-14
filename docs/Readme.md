@@ -54,7 +54,7 @@ Tetris is a traditional game. In this game, tetrominoes will fall from the sky a
 
 Below is the 7 types of tetrominoes.
 
-![image](https://user-images.githubusercontent.com/75410443/225058010-a02fcfb8-4c9c-42e2-8cbc-509a6113970e.png)
+![image](https://user-images.githubusercontent.com/75410443/225078945-28f0328f-62ee-40f0-8f81-74c4d25d634e.png)
 
 **In our case, the tetromino will not be rotated.** 
 
