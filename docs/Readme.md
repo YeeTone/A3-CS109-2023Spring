@@ -1,5 +1,57 @@
 # Assignment 3
 
+## Problem ?. Mine Sweeper(Easy, ? points)
+
+Siri is a CSE student who loves playing games, recently he is obsessed with *Mine Sweeper*. Unfortunately, he is too dumb to understand the game rule, so he asks you to help him develop a program that can mimic the process of this game.
+
+Before you develop this program, here are the preliminaries you should know:
+
+- The game board provide to you will be in the form of n*n, where mine squares will be presented in lower case English letter 'x' and safe squares will be presented in lower case English letter 'o'.
+- You will be provided with a specific coordinate which indicates a square on the board. The output must be the detail of the corresponding square. If the square is a mine square, you should output '-1', otherwise you must calculate how many mines are surround it and output the number of surrounding mines.
+
+By finishing this problem, we believe you will be an expert on *Mine Sweeper* one day!
+
+### Input Format
+
+The first line will be an integer n, which indicates the side length of game board.
+
+For the next n lines that represent the content of game board, each line will be a string of length n.
+
+The last line will be the coordinate.
+
+We ensure two things：
+
+-  1 ≤ n ≤ 100
+- **0 ≤ x＜n and 0 ≤ y＜n**
+
+### Output Format 
+
+A number indicate the detail of the specific square.
+
+### Sample with Explanation
+
+**Input**
+
+```text
+5
+ooooo
+ooxoo
+oxooo
+ooooo
+ooooo
+2 2
+```
+
+**Output**
+
+```
+2
+```
+
+
+
+## 
+
 ## Problem ?. Safe Areas in RA2 Battlefield(Easy, ? points)
 
 Recently, thanks to a series of video uploaders such as WM=HBK08(红警HBK08) and =HY=Moon3(红警月亮3), Red Alert 2 becomes a popular game in China. Suppose you are an Engineer in the $n×n$ battlefield of Red Alert 2, and there are $m$ Desolators(辐射工兵) and $k$ Grand Cannons(巨炮) of enemies. Now you are given the positions of Desolators and Grand Cannons and need to find out the number of safe areas in the $n×n$ battlefield.
