@@ -16,7 +16,7 @@ public class TetrisGame {
 
         int W = in.nextInt();
         int H = in.nextInt();
-        int N =in.nextInt();
+        int N = in.nextInt();
 
         /**
          * Build the buffer of the upper bound
