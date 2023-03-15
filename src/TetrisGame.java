@@ -5,10 +5,7 @@ public class TetrisGame {
     /**
      * This is about using 2-D array to simulate Tetris game.
      * The types are as followed:
-     *  I, O, T, J, L, S, Z
-     *
-     *  You will be given multiple lines of number:
-     *  first line will be
+     * I, O, T, J, L, S, Z
      */
 
     public static void main(String[] args) {
@@ -39,88 +36,130 @@ public class TetrisGame {
             /**
              * Check the type and place the tetromino
              */
-            switch (type){
+            switch (type) {
                 case "I":
-                    for (int j = virtualHeight - 1; j >= 2; j--) {
+                    for (int j = 2; j < virtualHeight; j++) {
                         int checkFilledCnt = field[j][leftmostIndex] + field[j][leftmostIndex + 1] + field[j][leftmostIndex + 2] + field[j][leftmostIndex + 3];
-                        if (checkFilledCnt == 0) {
+                        if (checkFilledCnt != 0) {
+                            field[j - 1][leftmostIndex] = 1;
+                            field[j - 1][leftmostIndex + 1] = 1;
+                            field[j - 1][leftmostIndex + 2] = 1;
+                            field[j - 1][leftmostIndex + 3] = 1;
+                            break;
+                        }
+                        else if (j == virtualHeight - 1) {
                             field[j][leftmostIndex] = 1;
                             field[j][leftmostIndex + 1] = 1;
                             field[j][leftmostIndex + 2] = 1;
                             field[j][leftmostIndex + 3] = 1;
-                            break;
                         }
                     }
                     break;
                 case "O":
-                    for (int j = virtualHeight - 1; j >= 2; j--) {
+                    for (int j = 2; j < virtualHeight; j++) {
                         int checkFilledCnt = field[j][leftmostIndex] + field[j][leftmostIndex + 1] + field[j - 1][leftmostIndex] + field[j - 1][leftmostIndex + 1];
-                        if (checkFilledCnt == 0) {
+                        if (checkFilledCnt != 0) {
+                            field[j - 1][leftmostIndex] = 1;
+                            field[j - 1][leftmostIndex + 1] = 1;
+                            field[j - 2][leftmostIndex] = 1;
+                            field[j - 2][leftmostIndex + 1] = 1;
+                            break;
+                        }
+                        else if (j == virtualHeight - 1) {
                             field[j][leftmostIndex] = 1;
                             field[j][leftmostIndex + 1] = 1;
                             field[j - 1][leftmostIndex] = 1;
                             field[j - 1][leftmostIndex + 1] = 1;
-                            break;
                         }
                     }
                     break;
                 case "L":
-                    for (int j = virtualHeight - 1; j >= 2; j--) {
+                    for (int j = 2; j < virtualHeight; j++) {
                         int checkFilledCnt = field[j][leftmostIndex] + field[j][leftmostIndex + 1] + field[j - 1][leftmostIndex] + field[j - 2][leftmostIndex];
-                        if (checkFilledCnt == 0) {
+                        if (checkFilledCnt != 0) {
+                            field[j - 1][leftmostIndex] = 1;
+                            field[j - 1][leftmostIndex + 1] = 1;
+                            field[j - 2][leftmostIndex] = 1;
+                            field[j - 3][leftmostIndex] = 1;
+                            break;
+                        }
+                        else if (j == virtualHeight - 1) {
                             field[j][leftmostIndex] = 1;
                             field[j][leftmostIndex + 1] = 1;
                             field[j - 1][leftmostIndex] = 1;
                             field[j - 2][leftmostIndex] = 1;
-                            break;
                         }
                     }
                     break;
                 case "J":
-                    for (int j = virtualHeight - 1; j >= 2; j--) {
+                    for (int j = 2; j < virtualHeight; j++) {
                         int checkFilledCnt = field[j][leftmostIndex] + field[j][leftmostIndex + 1] + field[j - 1][leftmostIndex + 1] + field[j - 2][leftmostIndex + 1];
-                        if (checkFilledCnt == 0) {
+                        if (checkFilledCnt != 0) {
+                            field[j - 1][leftmostIndex] = 1;
+                            field[j - 1][leftmostIndex + 1] = 1;
+                            field[j - 2][leftmostIndex + 1] = 1;
+                            field[j - 3][leftmostIndex + 1] = 1;
+                            break;
+                        }
+                        else if (j == virtualHeight - 1) {
                             field[j][leftmostIndex] = 1;
                             field[j][leftmostIndex + 1] = 1;
                             field[j - 1][leftmostIndex + 1] = 1;
                             field[j - 2][leftmostIndex + 1] = 1;
-                            break;
                         }
                     }
                     break;
                 case "T":
-                    for (int j = virtualHeight - 1; j >= 2; j--) {
+                    for (int j = 2; j < virtualHeight; j++) {
                         int checkFilledCnt = field[j][leftmostIndex + 1] + field[j - 1][leftmostIndex] + field[j - 1][leftmostIndex + 1] + field[j - 1][leftmostIndex + 2];
-                        if (checkFilledCnt == 0) {
+                        if (checkFilledCnt != 0) {
+                            field[j - 1][leftmostIndex + 1] = 1;
+                            field[j - 2][leftmostIndex] = 1;
+                            field[j - 2][leftmostIndex + 1] = 1;
+                            field[j - 2][leftmostIndex + 2] = 1;
+                            break;
+                        }
+                        else if (j == virtualHeight - 1) {
                             field[j][leftmostIndex + 1] = 1;
                             field[j - 1][leftmostIndex] = 1;
                             field[j - 1][leftmostIndex + 1] = 1;
                             field[j - 1][leftmostIndex + 2] = 1;
-                            break;
                         }
                     }
                     break;
                 case "S":
-                    for (int j = virtualHeight - 1; j >= 2; j--) {
+                    for (int j = 2; j < virtualHeight; j++) {
                         int checkFilledCnt = field[j][leftmostIndex] + field[j][leftmostIndex + 1] + field[j - 1][leftmostIndex + 1] + field[j - 1][leftmostIndex + 2];
-                        if (checkFilledCnt == 0) {
+                        if (checkFilledCnt != 0) {
+                            field[j - 1][leftmostIndex] = 1;
+                            field[j - 1][leftmostIndex + 1] = 1;
+                            field[j - 2][leftmostIndex + 1] = 1;
+                            field[j - 2][leftmostIndex + 2] = 1;
+                            break;
+                        }
+                        else if (j == virtualHeight - 1) {
                             field[j][leftmostIndex] = 1;
                             field[j][leftmostIndex + 1] = 1;
                             field[j - 1][leftmostIndex + 1] = 1;
                             field[j - 1][leftmostIndex + 2] = 1;
-                            break;
                         }
                     }
                     break;
                 case "Z":
-                    for (int j = virtualHeight - 1; j >= 2; j--) {
+                    for (int j = 2; j < virtualHeight; j++) {
                         int checkFilledCnt = field[j - 1][leftmostIndex] + field[j - 1][leftmostIndex + 1] + field[j][leftmostIndex + 1] + field[j][leftmostIndex + 2];
-                        if (checkFilledCnt == 0) {
+                        if (checkFilledCnt != 0) {
+                            field[j - 2][leftmostIndex] = 1;
+                            field[j - 2][leftmostIndex + 1] = 1;
+                            field[j - 1][leftmostIndex + 1] = 1;
+                            field[j - 1][leftmostIndex + 2] = 1;
+                            break;
+                        }
+                        else if (j == virtualHeight - 1) {
                             field[j - 1][leftmostIndex] = 1;
                             field[j - 1][leftmostIndex + 1] = 1;
                             field[j][leftmostIndex + 1] = 1;
                             field[j][leftmostIndex + 2] = 1;
-                            break;
                         }
                     }
                     break;
@@ -141,7 +180,7 @@ public class TetrisGame {
                 if (filled) {
                     for (int k = j; k >= 0; k--) {
                         for (int l = 0; l < W; l++) {
-                            field[k][l] = k == 0? 0: field[k - 1][l];
+                            field[k][l] = k == 0 ? 0 : field[k - 1][l];
                         }
                     }
                     j += 1;
@@ -152,7 +191,8 @@ public class TetrisGame {
              * Check the upper bound
              */
             boolean isExceeded = false;
-            out: for (int j = 0; j < 3; j++) {
+            out:
+            for (int j = 0; j < 3; j++) {
                 for (int k = 0; k < W; k++) {
                     if (field[j][k] != 0) {
                         isExceeded = true;
@@ -164,6 +204,17 @@ public class TetrisGame {
             if (isExceeded) {
                 break;
             }
+
+//            /**
+//             * print current field to debug
+//             */
+//            for (int m = 3; m < virtualHeight; m++) {
+//                for (int j = 0; j < W; j++) {
+//                    System.out.print(field[m][j]);
+//                }
+//                System.out.print("\n");
+//            }
+//            System.out.println("=============================");
         }
 
         /**
