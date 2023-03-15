@@ -202,6 +202,7 @@ In our trivial version of Tetris, there are several things that you should know:
 * The tetromino will not be rotated.
 * If one line is completely filled, the grids in this line will be eliminated.
 * If one tetromino exceeds the upper bound of the field (touching the bound is acceptable), the game will be ended immediately.
+* If a line is filled and the upper bound is exceeded at the same time, you should first eliminate the line and see if the upper bound is still being exceeded.
 
 Below is the 7 types of tetrominoes.
 
