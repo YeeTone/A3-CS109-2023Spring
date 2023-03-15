@@ -1,6 +1,18 @@
 # Assignment 3
 
-## Problem ?. Mine Sweeper(Easy, ? points)
+## Contributor List
+> Leader: Qing WANG
+>
+> Problem 1: Sirui LI
+>
+> Problem 2: Yuwei XIAO
+>
+> Problem 3: Yitong WANG
+>
+> Problem 4: Yitong WANG
+
+
+## Problem 1. Mine Sweeper(Easy, ? points)
 
 Siri is a CSE student who loves playing games, recently he is obsessed with *Mine Sweeper*. Unfortunately, he is too dumb to understand the game rule, so he asks you to help him develop a program that can mimic the process of this game.
 
@@ -48,7 +60,7 @@ ooooo
 2
 ```
 
-## Problem ?. Trivial Tetris Game(Medium, ? points)
+## Problem 2. Trivial Tetris Game(Medium, ? points)
 
 Tetris is a traditional game. In this game, tetrominoes will fall from the sky and keep move downward until they touch the bottom of the field or land on a piece that had been placed before it. 
 
@@ -143,7 +155,7 @@ After the third tetromino came, the bottom line is completely filled therefore e
 
 ## 
 
-## Problem ?. Safe Areas in RA2 Battlefield(Medium, ? points)
+## Problem 3. Safe Areas in RA2 Battlefield(Medium, ? points)
 
 Recently, thanks to a series of video uploaders such as WM=HBK08(红警HBK08) and =HY=Moon3(红警月亮3), Red Alert 2 becomes a popular game in China. Suppose you are a commander and want to drop paratroopers(伞兵) in the $n×n$ battlefield of Red Alert 2. However, there are $m$ Desolators(辐射工兵) and $k$ Grand Cannons(巨炮) of enemies. Now you are given the positions of Desolators and Grand Cannons and need to find out the number of safe areas in the $n×n$ battlefield to drop your paratroopers.
 
@@ -205,7 +217,7 @@ Considering blocks in pink i.e. (0,0) and (3,4) are captured by Grand Cannons, t
 - For $60\%$ testcases, $0 \le x_i, y_i, o_i, p_i \lt n$;
 - For $100\%$ testcases, $1 \le n \le 100$, $0 \le m,k \le 25$, $0 \le m+k \le 25$, $-50 \le x_i, y_i, o_i, p_i \le 150$;
 
-## Problem ?. Compressed Spiral Matrix(Hard, ? points)
+## Problem 4. Compressed Spiral Matrix(Hard, ? points)
 
 In this problem, you are required to fill in the matrix of size $m × n$.
 You are given matrix size $m$, $n$ and a compressed String $s$ containing lower letters and numbers. 
