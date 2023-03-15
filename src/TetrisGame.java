@@ -144,6 +144,7 @@ public class TetrisGame {
                             field[k][l] = k == 0? 0: field[k - 1][l];
                         }
                     }
+                    j += 1;
                 }
             }
 
