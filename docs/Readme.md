@@ -285,3 +285,32 @@ T 1
 ![image](https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png)
 
 After the third tetromino came, the bottom line is completely filled therefore eliminated. So, the final field will be like the above picture. 
+
+#### Sample 3
+
+**Input**
+
+```
+6 6
+3
+J 2
+I 1
+L 2
+```
+
+**Output**
+
+```
+001000
+001100
+011110
+000100
+000100
+001100
+```
+
+![image](https://user-images.githubusercontent.com/75410443/225188779-ef24af4c-5503-4afb-83f4-aac38a2fc92f.png)
+
+**Explanation**
+
+The third tetromino exceeded the upper bound of the field, therefore the game was terminated.
