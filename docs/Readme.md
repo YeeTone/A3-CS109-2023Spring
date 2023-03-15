@@ -57,7 +57,10 @@ ooooo
 
 ### Hint
 
-1. The upper left squares have smaller coordinate than the lower right squares
+1. This coordinate will be set base on the coordinate axis below:
+
+![e7c2aeb5eccb1f167e94a18e6afd2b8](https://user-images.githubusercontent.com/109658172/225224598-19549bcf-e1e2-4de6-8602-7e531e333d2b.png)
+
 2. For $100\%$ testcases, $1 \le n \le 100$, $0 \le x,y \lt n$.
 
 ## Problem 2. Safe Areas in RA2 Battlefield(Medium, ? points)
