@@ -12,7 +12,7 @@
 > Problem 4: Yuwei XIAO
 
 
-## Problem 1. Mine Sweeper(Easy, ? points)
+## Problem 1. Mine Sweeper(Easy, 20 points)
 
 Siri is a CSE student who loves playing games, recently he is obsessed with *Mine Sweeper*. Unfortunately, he is too dumb to understand the game rule, so he asks you to help him develop a program that can mimic the process of this game.
 
@@ -63,7 +63,7 @@ ooooo
 
 2. For $100\%$ testcases, $1 \le n \le 100$, $0 \le x,y \lt n$.
 
-## Problem 2. Safe Areas in RA2 Battlefield(Medium, ? points)
+## Problem 2. Safe Areas in RA2 Battlefield(Medium, 20 points)
 
 Recently, thanks to a series of video uploaders such as WM=HBK08(红警HBK08) and =HY=Moon3(红警月亮3), Red Alert 2 becomes a popular game in China. Suppose you are a commander and want to drop paratroopers(伞兵) in the $n×n$ battlefield of Red Alert 2. However, there are $m$ Desolators(辐射工兵) and $k$ Grand Cannons(巨炮) of enemies. Now you are given the positions of Desolators and Grand Cannons and need to find out the number of safe areas in the $n×n$ battlefield to drop your paratroopers.
 
@@ -125,7 +125,7 @@ Considering blocks in pink i.e. (0,0) and (3,4) are captured by Grand Cannons, t
 - For $60\%$ testcases, $0 \le x_i, y_i, o_i, p_i \lt n$;
 - For $100\%$ testcases, $1 \le n \le 100$, $0 \le m,k \le 25$, $0 \le m+k \le 25$, $-50 \le x_i, y_i, o_i, p_i \le 150$;
 
-## Problem 3. Compressed Spiral Matrix(Hard, ? points)
+## Problem 3. Compressed Spiral Matrix(Hard, 30 points)
 
 In this problem, you are required to fill in the matrix of size $m × n$.
 You are given matrix size $m$, $n$ and a compressed String $s$ containing lower letters and numbers. 
@@ -197,7 +197,7 @@ abbcc
 - For $40\%$ testcases, $n_i \lt 10$ for the compressed String $s$; 
 - For $100\%$ testcases, $1 \le m,n \le 200$ for the target matrix size and $n_i \le 100$ for the compressed String $s$;
 
-## Problem 4. Trivial Tetris Game(Medium, ? points)
+## Problem 4. Trivial Tetris Game(Medium, 30 points)
 
 Tetris is a traditional game. In this game, tetrominoes will fall from the sky and keep move downward until they touch the bottom of the field or land on a piece that had been placed before it. 
 
