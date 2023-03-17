@@ -82,9 +82,10 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
 - Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it. Considering it is a defensive tower, the area captured by it(block in pink) is also unsafe.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/225910076-cd679339-07f9-4af2-8753-f3b96164c39f.png" height=200>
+    <img src="https://user-images.githubusercontent.com/64548919/225942029-8cd235f3-6272-467b-9829-80a37fa2b09e.png" height=200>
    <img src="https://user-images.githubusercontent.com/64548919/224633639-d24aad0b-effa-4d7e-b972-76fb41075e80.png"  height=200>
 </div>
+
 
 ### Input Format
 
