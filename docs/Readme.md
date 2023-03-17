@@ -74,7 +74,7 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
 - Desolator: The Desolator uses a radiation cannon to irradiate the ground around him(blocks in green), damaging all units around him.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/225906998-fd5b8189-4a69-4746-9ca5-de36086e8a18.png" height=200>
+    <img src="https://user-images.githubusercontent.com/64548919/225911131-4dc3c9a4-269e-48dc-87b9-ce6a5d29a8be.png" height=200>
    <img src="https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png"  height=200>
 </div>
 
@@ -82,7 +82,7 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
 - Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it. Considering it is a defensive towel, the area captured by it(block in pink) is also unsafe.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/225906838-d13fb785-58cc-420c-b61b-dc2b6c61bac7.png" height=200>
+    <img src="https://user-images.githubusercontent.com/64548919/225910076-cd679339-07f9-4af2-8753-f3b96164c39f.png" height=200>
    <img src="https://user-images.githubusercontent.com/64548919/224633639-d24aad0b-effa-4d7e-b972-76fb41075e80.png"  height=200>
 </div>
 
