@@ -67,7 +67,7 @@ ooooo
 
 ## Problem 2. Safe Areas in RA2 Battlefield(Medium, 20 points)
 
-Recently, thanks to a series of video uploaders such as WM=HBK08(红警HBK08) and =HY=Moon3(红警月亮3), Red Alert 2 becomes a popular game in China. Suppose you are a commander and want to drop paratroopers(伞兵) in the $n×n$ battlefield of Red Alert 2. However, there are $m$ Desolators(辐射工兵) and $k$ Grand Cannons(巨炮) of enemies. Now you are given the positions of Desolators and Grand Cannons and need to find out the number of safe areas in the $n×n$ battlefield to drop your paratroopers.
+Recently, thanks to a series of video uploaders such as [WM=HBK08(红警HBK08)](https://space.bilibili.com/1629347259) and [=HY=Moon3(红警月亮3)](https://space.bilibili.com/674510452), Red Alert 2 becomes a popular game in China. Suppose you are a commander and want to drop paratroopers(伞兵) in the $n×n$ battlefield of Red Alert 2. However, there are $m$ Desolators(辐射工兵) and $k$ Grand Cannons(巨炮) of enemies. Now you are given the positions of Desolators and Grand Cannons and need to find out the number of safe areas in the $n×n$ battlefield to drop your paratroopers.
 
 Here is the introduction to Desolators and Grand Cannons in this problem:
 
@@ -209,7 +209,7 @@ abbcc
 - For $10\%$ testcases, $n_i = 1$ for the compressed String $s$; 
 - For another $10\%$ testcases, there is only $c_0$ and $n_0$ in the compressed String $s$.
 - For $20\%$ testcases, $m = 1$ or $n = 1$ for the target matrix size; 
-- For $40\%$ testcases, $n_i \lt 10$ for the compressed String $s$; 
+- For $40\%$ testcases, $1\le n_i \lt 10$ for the compressed String $s$; 
 - For $100\%$ testcases, $1 \le m,n \le 200$ for the target matrix size and $1 \le n_i \le 100$ for the compressed String $s$;
 
 ## Problem 4. Trivial Tetris Game(Medium, 30 points)
@@ -228,7 +228,7 @@ Below is the 7 types of tetrominoes.
     <img src="https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png" height=280>
 </div>
 
- 
+
 ### Input Format
 
 First line gives the width $w$ and height $h$ of the field.
