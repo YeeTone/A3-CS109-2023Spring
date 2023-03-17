@@ -59,7 +59,9 @@ ooooo
 
 1. This coordinate will be set base on the coordinate axis below:
 
-![e7c2aeb5eccb1f167e94a18e6afd2b8](https://user-images.githubusercontent.com/109658172/225224598-19549bcf-e1e2-4de6-8602-7e531e333d2b.png)
+<div align="">
+    <img src="https://user-images.githubusercontent.com/109658172/225224598-19549bcf-e1e2-4de6-8602-7e531e333d2b.png" height=200>
+</div>
 
 2. For $100\%$ testcases, $1 \le n \le 100$, $0 \le x,y \lt n$.
 
@@ -71,12 +73,18 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
 
 - Desolator: The Desolator uses a radiation cannon to irradiate the ground around him(blocks in green), damaging all units around him.
 
-![image](https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png)
+<div align="">
+    <img src="https://user-images.githubusercontent.com/64548919/225906998-fd5b8189-4a69-4746-9ca5-de36086e8a18.png" height=200>
+   <img src="https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png"  height=200>
+</div>
 
 
 - Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it. Considering it is a defensive towel, the area captured by it(block in pink) is also unsafe.
 
-![image](https://user-images.githubusercontent.com/64548919/224633639-d24aad0b-effa-4d7e-b972-76fb41075e80.png)
+<div align="">
+    <img src="https://user-images.githubusercontent.com/64548919/225906838-d13fb785-58cc-420c-b61b-dc2b6c61bac7.png" height=200>
+   <img src="https://user-images.githubusercontent.com/64548919/224633639-d24aad0b-effa-4d7e-b972-76fb41075e80.png"  height=200>
+</div>
 
 ### Input Format
 
@@ -109,7 +117,9 @@ The number of safe areas for droping paratroopers in the battlefield of Red Aler
 
 **Explanation**
 
-![image](https://user-images.githubusercontent.com/64548919/224637578-ab3425d2-4f83-4e70-89b4-e298ec86af5d.png)
+<div align="">
+    <img src="https://user-images.githubusercontent.com/64548919/224637578-ab3425d2-4f83-4e70-89b4-e298ec86af5d.png" height=250>
+</div>
 
 The battlefield is shown in the figure. The blocks in green are irradiated by Desolators and those in red can be damaged by Grand Cannons. The blocks in yellow can be both damaged by Desolators and Grand Cannons.
 Considering blocks in pink i.e. (0,0) and (3,4) are captured by Grand Cannons, there are 6 safe areas i.e. (0, 4), (1, 0), (2, 4), (3, 3), (4, 3) and (4, 4).
@@ -135,7 +145,10 @@ And you need to do the following tasks in this problem:
 
 (2) Organize the sqiral matrix counterclockwise using the decompressed String $s'$, starting from the bottom left corner.
 
-![image](https://user-images.githubusercontent.com/64548919/224639380-fb7e5914-8c50-4168-9e63-32660ed297e7.png)
+<div align="">
+    <img src="https://user-images.githubusercontent.com/64548919/224639380-fb7e5914-8c50-4168-9e63-32660ed297e7.png" height=230>
+</div>
+
 
 (3) Print out the alphabet matrix after decompression.
 
@@ -175,7 +188,9 @@ After: abbcccddddeeeeeffffg
 
 Next, we start from the bottom left corner and organize the $4×5$ sqiral matrix counterclockwise using $s'$(abbcccddddeeeeeffffg).
 
-![image](https://user-images.githubusercontent.com/64548919/224639091-11930723-26b5-4221-9d12-8e724ce275b1.png)
+<div align="">
+    <img src="https://user-images.githubusercontent.com/64548919/224639091-11930723-26b5-4221-9d12-8e724ce275b1.png" height=230>
+</div>
 
 Finally, we print the matrix out and get the output in the sample.
 
@@ -209,7 +224,9 @@ In our trivial version of Tetris, there are several things that you should know:
 
 Below is the 7 types of tetrominoes.
 
-![image](https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png)
+<div align="">
+    <img src="https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png" height=280>
+</div>
 
  
 ### Input Format
@@ -254,7 +271,9 @@ O 3
 11110
 ```
 
-![image](https://user-images.githubusercontent.com/75410443/225057948-3089d2b6-0d9c-4116-9f03-5a8af55c968a.png)
+<div align="">
+    <img src="https://user-images.githubusercontent.com/75410443/225057948-3089d2b6-0d9c-4116-9f03-5a8af55c968a.png" height=280>
+</div>
 
 
 **Explanation**
@@ -287,7 +306,9 @@ T 1
 
 **Explanation**
 
-![image](https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png)
+<div align="">
+    <img src="https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png" height=280>
+</div>
 
 After the third tetromino came, the bottom line is completely filled therefore eliminated. So, the final field will be like the above picture. 
 
@@ -314,7 +335,9 @@ L 2
 001100
 ```
 
-![image](https://user-images.githubusercontent.com/75410443/225188779-ef24af4c-5503-4afb-83f4-aac38a2fc92f.png)
+<div align="">
+    <img src="https://user-images.githubusercontent.com/75410443/225188779-ef24af4c-5503-4afb-83f4-aac38a2fc92f.png" height=280>
+</div>
 
 **Explanation**
 
