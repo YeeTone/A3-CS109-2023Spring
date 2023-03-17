@@ -142,7 +142,7 @@ In this problem, you are required to fill in the matrix of size $m × n$.
 You are given matrix size $m$, $n$ and a compressed String $s$ containing lower letters and numbers. 
 And you need to do the following tasks in this problem:
 
-(1) Decompress the compressed String. The String $s$ is compressed in the form of letters $c_i$ and repeat times $n_i$. After decompression, the length of String $s'$ is guaranteed to equal $m*n$ in our testcases i.e. $\sum_{i=0}{n_i}=length(s')$. For instance, `a6` can be decompressed into `aaaaaa` since $c_0=a$ and $n_0=6$, and `a1b4` can be decompressed into `abbbb` since $c_0=a$ and $n_0 = 1$, $c_1=b$ and $n_1=4$.
+(1) Decompress the compressed String. The String $s$ is compressed in the form of letters $c_i$ and repeat times $n_i$. After decompression, the length of String $s'$ is guaranteed to equal $m*n$ in our testcases i.e. $\sum_{i=0}{n_i}=length(s')=m*n$. For instance, `a6` can be decompressed into `aaaaaa` since $c_0=a$ and $n_0=6$, and `a1b4` can be decompressed into `abbbb` since $c_0=a$ and $n_0 = 1$, $c_1=b$ and $n_1=4$.
 
 (2) Organize the sqiral matrix counterclockwise using the decompressed String $s'$, starting from the bottom left corner.
 
