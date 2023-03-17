@@ -79,7 +79,7 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
 </div>
 
 
-- Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it. Considering it is a defensive towel, the area captured by it(block in pink) is also unsafe.
+- Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it. Considering it is a defensive tower, the area captured by it(block in pink) is also unsafe.
 
 <div align="">
     <img src="https://user-images.githubusercontent.com/64548919/225910076-cd679339-07f9-4af2-8753-f3b96164c39f.png" height=200>
@@ -210,7 +210,7 @@ abbcc
 - For another $10\%$ testcases, there is only $c_0$ and $n_0$ in the compressed String $s$.
 - For $20\%$ testcases, $m = 1$ or $n = 1$ for the target matrix size; 
 - For $40\%$ testcases, $n_i \lt 10$ for the compressed String $s$; 
-- For $100\%$ testcases, $1 \le m,n \le 200$ for the target matrix size and $n_i \le 100$ for the compressed String $s$;
+- For $100\%$ testcases, $1 \le m,n \le 200$ for the target matrix size and $1 \le n_i \le 100$ for the compressed String $s$;
 
 ## Problem 4. Trivial Tetris Game(Medium, 30 points)
 
@@ -272,7 +272,7 @@ O 3
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225057948-3089d2b6-0d9c-4116-9f03-5a8af55c968a.png" height=280>
+    <img src="https://user-images.githubusercontent.com/75410443/225057948-3089d2b6-0d9c-4116-9f03-5a8af55c968a.png" height=270>
 </div>
 
 
@@ -307,7 +307,7 @@ T 1
 **Explanation**
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png" height=280>
+    <img src="https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png" height=270>
 </div>
 
 After the third tetromino came, the bottom line is completely filled therefore eliminated. So, the final field will be like the above picture. 
@@ -336,7 +336,7 @@ L 2
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225188779-ef24af4c-5503-4afb-83f4-aac38a2fc92f.png" height=280>
+    <img src="https://user-images.githubusercontent.com/75410443/225188779-ef24af4c-5503-4afb-83f4-aac38a2fc92f.png" height=270>
 </div>
 
 **Explanation**
