@@ -134,7 +134,7 @@ Considering blocks in pink i.e. (0,0) and (3,4) are captured by Grand Cannons, t
 - For $10\%$ testcases, $n = 1$; 
 - For another $20\%$ testcases, $m = 0$ or $k = 0$; 
 - For $60\%$ testcases, $0 \le x_i, y_i, o_i, p_i \lt n$;
-- For $100\%$ testcases, $1 \le n \le 100$, $0 \le m,k \le 25$, $0 \le m+k \le 25$, $-50 \le x_i, y_i, o_i, p_i \le 150$;
+- For $100\%$ testcases, $1 \le n \le 100$, $0 \le m,k \le 25$, $0 \le m+k \le 25$, $-50 \le x_i, y_i, o_i, p_i \le 150$.
 
 ## Problem 3. Compressed Spiral Matrix(Hard, 30 points)
 
@@ -144,7 +144,7 @@ And you need to do the following tasks in this problem:
 
 (1) Decompress the compressed String. The String $s$ is compressed in the form of letters $c_i$ and repeat times $n_i$. After decompression, the length of String $s'$ is guaranteed to equal $m*n$ in our testcases i.e. $\sum_{i=0}{n_i}=length(s')=m*n$. For instance, `a6` can be decompressed into `aaaaaa` since $c_0=a$ and $n_0=6$, and `a1b4` can be decompressed into `abbbb` since $c_0=a$ and $n_0 = 1$, $c_1=b$ and $n_1=4$.
 
-(2) Organize the sqiral matrix counterclockwise using the decompressed String $s'$, starting from the bottom left corner.
+(2) Organize the spiral matrix counterclockwise using the decompressed String $s'$, starting from the bottom left corner.
 
 <div align="">
     <img src="https://user-images.githubusercontent.com/64548919/224639380-fb7e5914-8c50-4168-9e63-32660ed297e7.png" height=230>
@@ -158,7 +158,7 @@ The first line gives $m$ and $n$, and the second line gives the compressed Strin
 
 ### Output Format
 
-The sqiral matrix after decompression.
+The spiral matrix after decompression.
 
 ### Sample with Explanation
 
@@ -187,7 +187,7 @@ Before: a1b2c3d4e5f4g1
 After: abbcccddddeeeeeffffg
 ```
 
-Next, we start from the bottom left corner and organize the $4×5$ sqiral matrix counterclockwise using $s'$(abbcccddddeeeeeffffg).
+Next, we start from the bottom left corner and organize the $4×5$ spiral matrix counterclockwise using $s'$(abbcccddddeeeeeffffg).
 
 <div align="">
     <img src="https://user-images.githubusercontent.com/64548919/224639091-11930723-26b5-4221-9d12-8e724ce275b1.png" height=230>
@@ -208,10 +208,10 @@ abbcc
 2. Test data scale:
 
 - For $10\%$ testcases, $n_i = 1$ for the compressed String $s$; 
-- For another $10\%$ testcases, there is only $c_0$ and $n_0$ in the compressed String $s$.
+- For another $10\%$ testcases, there is only $c_0$ and $n_0$ in the compressed String $s$;
 - For $20\%$ testcases, $m = 1$ or $n = 1$ for the target matrix size; 
 - For $40\%$ testcases, $1\le n_i \lt 10$ for the compressed String $s$; 
-- For $100\%$ testcases, $1 \le m,n \le 200$ for the target matrix size and $1 \le n_i \le 100$ for the compressed String $s$;
+- For $100\%$ testcases, $1 \le m,n \le 200$ for the target matrix size and $1 \le n_i \le 100$ for the compressed String $s$.
 
 ## Problem 4. Trivial Tetris Game(Medium, 30 points)
 
