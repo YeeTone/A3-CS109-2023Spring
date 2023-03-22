@@ -219,9 +219,9 @@ Tetris is a traditional game. In this game, tetrominoes will fall from the sky a
 
 In our trivial version of Tetris, there are several things that you should know:
 * The tetromino will not be rotated.
-* If one line is completely filled, the grids in this line will be eliminated.
-* If one tetromino exceeds the upper bound of the field (touching the bound is acceptable), the game will be ended immediately.
-* If a line is filled and the upper bound is exceeded at the same time, you should first eliminate the line, then check the upper bound.
+* If one line is **completely filled**, the grids in this line will be eliminated. And the lines above this line will move down only one line (the grid will not freefall).
+* If one tetromino **exceeds the upper bound** of the field **(touching the bound is acceptable)**, the game will be **ended immediately** and you should output the field at this time. You can take a look at Sample 3, which indicates this kind of scene.
+* If a line is filled and the upper bound is exceeded at the same time, you should **first eliminate the line, then check the upper bound**. You can take a look at Sample 4, which indicates this kind of scene. 
 
 Below is the 7 types of tetrominoes.
 
@@ -236,17 +236,17 @@ First line gives the width $w$ and height $h$ of the field.
 
 Second line gives the number of tetrominoes $n$.
 
-The following $n$ lines define $T$ and $S$ of each tetromino.
+The following $n$ lines define $t$ and $s$ of each tetromino.
 
-$T$ means the type of the tetromino.
+$t$ means the type of the tetromino.
 
-$S$ means the index of the leftmost point of the tetromino.
+$s$ means the index of the **leftmost grid** of the tetromino.
 
 ### Output Format
 
 The field with all tetrominoes correctly placed and eliminated.
 
-Each grid of the field should be either 1 (filled) or 0 (unfilled).
+Each grid of the field should be either $1$ (filled) or $0$ (unfilled).
 
 ### Samples with Explanation
 
@@ -343,3 +343,48 @@ L 2
 **Explanation**
 
 The third tetromino exceeded the upper bound of the field, therefore the game was terminated.
+
+#### Sample 4
+
+**Input**
+
+```
+6 6
+8
+I 0
+T 3
+Z 0
+T 1
+O 4
+I 0
+J 4
+I 0
+```
+
+**Output**
+
+```
+000001
+111101
+011111
+111011
+011111
+111110
+```
+
+<div align="">
+    <img src="https://user-images.githubusercontent.com/75410443/226834379-c9a0d6e1-4de6-4e7b-862a-6e3a1bf1bbbf.png" height=270>
+</div>
+
+<div align="">
+    <img src="https://user-images.githubusercontent.com/75410443/226834424-14c558c6-c9a9-47df-97ce-d1f9d0b1ce9a.png" height=270>
+</div>
+
+**Explanation**
+
+When the second to last tetromino came, it actually exceeded the upper bound of the field. However, line 1 was completely filled at the same time. Therefore line 1 was eliminated, and the game was not terminated. The final output should be like the bottom figure.
+
+### Hint
+
+* You can create a **2-D array** to represent the field. 
+* In light of Sample 4, creating a **buffer area** of the field might be an assistance to you. 
