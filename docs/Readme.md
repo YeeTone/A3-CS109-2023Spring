@@ -223,7 +223,7 @@ In our trivial version of Tetris, there are several things that you should know:
 * If one tetromino **exceeds the upper bound** of the field **(touching the bound is acceptable)**, the game will be **ended immediately** and you should output the field at this time. You can take a look at Sample 3, which indicates this kind of scene.
 * If a line is filled and the upper bound is exceeded at the same time, you should **first eliminate the line, then check the upper bound**. You can take a look at Sample 4, which indicates this kind of scene. 
 
-Below is the 7 types of tetrominoes.
+Below is the 7 types of tetrominoes in our trivial tetris game.
 
 <div align="">
     <img src="https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png" height=280>
@@ -382,6 +382,7 @@ I 0
 When the second to last tetromino came, it actually exceeded the upper bound of the field. However, line 1 was completely filled at the same time. Therefore line 1 was eliminated, and the game was not terminated. The final output should be like the bottom figure.
 
 ### Hint
-
 * You can create a **2-D array** to represent the field. 
 * In light of Sample 4, creating a **buffer area** of the field might be an assistance to you. 
+* For all testcases, $5 \le w \le 10$, $3 \le h \le 10$, $1 \le n \le 20$.
+* For all testcases, $s$ is always valid, which means the tetrominoes we provide will not exceed the left or right bound of the field.
