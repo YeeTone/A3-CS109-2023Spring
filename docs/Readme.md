@@ -373,7 +373,8 @@ I 0
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/226834379-c9a0d6e1-4de6-4e7b-862a-6e3a1bf1bbbf.png" height=270><img src="https://user-images.githubusercontent.com/75410443/226834424-14c558c6-c9a9-47df-97ce-d1f9d0b1ce9a.png" height=270>
+    <img src="https://user-images.githubusercontent.com/75410443/226834379-c9a0d6e1-4de6-4e7b-862a-6e3a1bf1bbbf.png" height=270>
+    <img src="https://user-images.githubusercontent.com/75410443/226834424-14c558c6-c9a9-47df-97ce-d1f9d0b1ce9a.png" height=270>
 </div>
 
 **Explanation**
