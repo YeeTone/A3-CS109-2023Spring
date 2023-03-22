@@ -78,14 +78,12 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
    <img src="https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png"  height=200>
 </div>
 
-
 - Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it. Considering it is a defensive tower, the area captured by it(block in pink) is also unsafe.
 
 <div align="">
     <img src="https://user-images.githubusercontent.com/64548919/225942029-8cd235f3-6272-467b-9829-80a37fa2b09e.png" height=200>
    <img src="https://user-images.githubusercontent.com/64548919/224633639-d24aad0b-effa-4d7e-b972-76fb41075e80.png"  height=200>
 </div>
-
 
 ### Input Format
 
@@ -150,7 +148,6 @@ And you need to do the following tasks in this problem:
     <img src="https://user-images.githubusercontent.com/64548919/224639380-fb7e5914-8c50-4168-9e63-32660ed297e7.png" height=230>
 </div>
 
-
 (3) Print out the alphabet matrix after decompression.
 
 ### Input Format
@@ -190,7 +187,7 @@ After: abbcccddddeeeeeffffg
 Next, we start from the bottom left corner and organize the $4×5$ spiral matrix counterclockwise using $s'$(abbcccddddeeeeeffffg).
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/224639091-11930723-26b5-4221-9d12-8e724ce275b1.png" height=230>
+    <img src="https://user-images.githubusercontent.com/64548919/224639091-11930723-26b5-4221-9d12-8e724ce275b1.png" height=200>
 </div>
 
 Finally, we print the matrix out and get the output in the sample.
@@ -226,9 +223,8 @@ In our trivial version of Tetris, there are several things that you should know:
 Below is the 7 types of tetrominoes in our trivial tetris game.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png" height=280>
+    <img src="https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png" height=250>
 </div>
-
 
 ### Input Format
 
@@ -273,9 +269,8 @@ O 3
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225057948-3089d2b6-0d9c-4116-9f03-5a8af55c968a.png" height=270>
+    <img src="https://user-images.githubusercontent.com/75410443/225057948-3089d2b6-0d9c-4116-9f03-5a8af55c968a.png" height=180>
 </div>
-
 
 **Explanation**
 
@@ -308,9 +303,8 @@ T 1
 **Explanation**
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png" height=270>
+    <img src="https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png" height=220>
 </div>
-
 After the third tetromino came, the bottom line is completely filled therefore eliminated. So, the final field will be like the above picture. 
 
 #### Sample 3
@@ -337,7 +331,7 @@ L 2
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225188779-ef24af4c-5503-4afb-83f4-aac38a2fc92f.png" height=270>
+    <img src="https://user-images.githubusercontent.com/75410443/225188779-ef24af4c-5503-4afb-83f4-aac38a2fc92f.png" height=220>
 </div>
 
 **Explanation**
@@ -373,8 +367,8 @@ I 0
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/226834379-c9a0d6e1-4de6-4e7b-862a-6e3a1bf1bbbf.png" height=270>
-    <img src="https://user-images.githubusercontent.com/75410443/226834424-14c558c6-c9a9-47df-97ce-d1f9d0b1ce9a.png" height=270>
+    <img src="https://user-images.githubusercontent.com/75410443/226834379-c9a0d6e1-4de6-4e7b-862a-6e3a1bf1bbbf.png" height=220>
+    <img src="https://user-images.githubusercontent.com/75410443/226834424-14c558c6-c9a9-47df-97ce-d1f9d0b1ce9a.png" height=220>
 </div>
 
 **Explanation**
