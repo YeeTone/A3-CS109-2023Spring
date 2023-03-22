@@ -385,4 +385,5 @@ When the second to last tetromino came, it actually exceeded the upper bound of 
 * You can create a **2-D array** to represent the field. 
 * In light of Sample 4, creating a **buffer area** of the field might be an assistance to you. 
 * For all testcases, $5 \le w \le 10$, $3 \le h \le 10$, $1 \le n \le 20$.
+* For all testcases, $t$ will be one of the 7 categories that listed above and $t$ is a **CAPITAL** letter.
 * For all testcases, $s$ is always valid, which means the tetrominoes we provide will not exceed the left or right bound of the field.
