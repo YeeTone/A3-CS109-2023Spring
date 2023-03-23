@@ -140,10 +140,11 @@ Considering blocks in pink i.e. (0,0) and (3,4) are captured by Grand Cannons, t
 - For $60\%$ testcases, $0 \le x_i, y_i, o_i, p_i \lt n$;
 - For $100\%$ testcases, $1 \le n \le 100$, $0 \le m,k \le 25$, $0 \le m+k \le 25$, $-50 \le x_i, y_i, o_i, p_i \le 150$.
 
-## Problem 3. Compressed Spiral Matrix(Hard, 30 points)
+## Problem 3. Hatsune Miku's Puzzle(Hard, 30 points)
+One day, you invite [Hatsune Miku(初音未来)](https://zh.moegirl.org.cn/%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5) to sing a song for you. Miku accepts this invitation, but she needs you to solve a puzzle about matrix first. If you can solve this puzzle of Miku, she is very pleased to dance and sing a song named [Senbon Zakura(千本樱)](https://zh.moegirl.org.cn/%E5%8D%83%E6%9C%AC%E6%A8%B1) for you!
 
 In this problem, you are required to fill in the matrix of size $m × n$.
-You are given matrix size $m$, $n$ and a compressed String $s$ containing lower letters and numbers. 
+Miku gives you the matrix size $m$, $n$ and a compressed String $s$ containing lower letters and numbers. 
 And you need to do the following tasks in this problem:
 
 (1) Decompress the compressed String. The String $s$ is compressed in the form of letters $c_i$ and repeat times $n_i$. After decompression, the length of String $s'$ is guaranteed to equal $m*n$ in our testcases i.e. $\sum_{i=0}{n_i}=length(s')=m*n$. For instance, `a6` can be decompressed into `aaaaaa` since $c_0=a$ and $n_0=6$, and `a1b4` can be decompressed into `abbbb` since $c_0=a$ and $n_0 = 1$, $c_1=b$ and $n_1=4$.
