@@ -67,7 +67,13 @@ ooooo
 
 ## Problem 2. Safe Areas in RA2 Battlefield(Medium, 20 points)
 
-Recently, thanks to a series of video uploaders such as [WM=HBK08(红警HBK08)](https://space.bilibili.com/1629347259) and [=HY=Moon3(红警月亮3)](https://space.bilibili.com/674510452), Red Alert 2 becomes a popular game in China. Suppose you are a commander and want to drop paratroopers(伞兵) in the $n×n$ battlefield of Red Alert 2. However, there are $m$ Iraqi Desolators(伊拉克辐射工兵) and $k$ French Grand Cannons(法国巨炮) of enemies. Now you are given the positions of Desolators and Grand Cannons and need to find out the number of safe areas in the $n×n$ battlefield to drop your paratroopers.
+Recently, a series of Red Alert 2 video uploaders emerge and contribute to the prevalence of this game in China:
+- [WM=HBK08(红警HBK08)](https://space.bilibili.com/1629347259)
+- [=HY=Moon3(红警月亮3)](https://space.bilibili.com/674510452)
+- [Bluesky28(红警魔鬼蓝天)](https://space.bilibili.com/483246073)
+- ......
+
+Suppose you are a commander and want to drop paratroopers(伞兵) in the $n×n$ battlefield of Red Alert 2. However, there are $m$ Iraqi Desolators(伊拉克辐射工兵) and $k$ French Grand Cannons(法国巨炮) of enemies. Now you are given the positions of Desolators and Grand Cannons and need to find out the number of safe areas in the $n×n$ battlefield to drop your paratroopers.
 
 Here is the introduction to Desolators and Grand Cannons in this problem:
 
