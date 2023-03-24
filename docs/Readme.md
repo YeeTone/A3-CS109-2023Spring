@@ -62,8 +62,6 @@ ooooo
 <div align="">
     <img src="https://user-images.githubusercontent.com/109658172/225224598-19549bcf-e1e2-4de6-8602-7e531e333d2b.png" height=200>
 </div>
-
-
 2. For $100\%$ testcases, $1 \le n \le 100$, $0 \le x,y \lt n$.
 
 ## Problem 2. Safe Areas in RA2 Battlefield(Medium, 20 points)
@@ -81,18 +79,16 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
 - Desolator: The Desolator uses a radiation cannon to irradiate the ground around him(blocks in green), damaging all units around him.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/225911131-4dc3c9a4-269e-48dc-87b9-ce6a5d29a8be.png" height=190>
-   <img src="https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png"  height=190>
+    <img src="https://user-images.githubusercontent.com/64548919/225911131-4dc3c9a4-269e-48dc-87b9-ce6a5d29a8be.png" height=225>
+   <img src="https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png"  height=225>
 </div>
-
 
 - Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it. Considering it is a defensive tower, the area captured by it(block in pink) is also unsafe.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/225942029-8cd235f3-6272-467b-9829-80a37fa2b09e.png" height=190>
-   <img src="https://user-images.githubusercontent.com/64548919/224633639-d24aad0b-effa-4d7e-b972-76fb41075e80.png"  height=190>
+    <img src="https://user-images.githubusercontent.com/64548919/225942029-8cd235f3-6272-467b-9829-80a37fa2b09e.png" height=225>
+   <img src="https://user-images.githubusercontent.com/64548919/224633639-d24aad0b-effa-4d7e-b972-76fb41075e80.png"  height=225>
 </div>
-
 
 ### Input Format
 
@@ -126,7 +122,7 @@ The number of safe areas for droping paratroopers in the battlefield of Red Aler
 **Explanation**
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/224637578-ab3425d2-4f83-4e70-89b4-e298ec86af5d.png" height=250>
+    <img src="https://user-images.githubusercontent.com/64548919/224637578-ab3425d2-4f83-4e70-89b4-e298ec86af5d.png" height=275>
 </div>
 
 The battlefield is shown in the figure. The blocks in green are irradiated by Desolators and those in red can be damaged by Grand Cannons. The blocks in yellow can be both damaged by Desolators and Grand Cannons.
@@ -136,7 +132,8 @@ Considering blocks in pink i.e. (0,0) and (3,4) are captured by Grand Cannons, t
 
 1. You can try to make use of `boolean[][]`.
 2. It is recommended to do the boundary checking before accessing array element.
-3. Test data scale:
+3. Enumerating each element by coding multiple `if-else`  is not elegant, and could we try to make use of direction array(方向数组) to make the code clean and easy-understanding?
+4. Test data scale:
 
 - For $10\%$ testcases, $n = 1$; 
 - For another $20\%$ testcases, $m = 0$ or $k = 0$; 
@@ -153,8 +150,9 @@ In this problem, you are required to fill in the matrix of size $m × n$. Miku g
 (2) Organize the spiral matrix counterclockwise using the decompressed String $s'$, starting from the bottom left corner.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/224639380-fb7e5914-8c50-4168-9e63-32660ed297e7.png" height=230>
+    <img src="https://user-images.githubusercontent.com/64548919/224639380-fb7e5914-8c50-4168-9e63-32660ed297e7.png" height=250>
 </div>
+
 
 (3) Print out the alphabet matrix after decompression.
 
@@ -195,8 +193,9 @@ After: abbcccddddeeeeeffffg
 Next, we start from the bottom left corner and organize the $4×5$ spiral matrix counterclockwise using $s'$(abbcccddddeeeeeffffg).
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/224639091-11930723-26b5-4221-9d12-8e724ce275b1.png" height=200>
+    <img src="https://user-images.githubusercontent.com/64548919/224639091-11930723-26b5-4221-9d12-8e724ce275b1.png" height=250>
 </div>
+
 
 Finally, we print the matrix out and get the output in the sample.
 
@@ -231,8 +230,9 @@ In our trivial version of Tetris, there are several things that you should know:
 Below is the 7 types of tetrominoes in our trivial tetris game.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png" height=250>
+    <img src="https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png" height=300>
 </div>
+
 
 ### Input Format
 
@@ -277,7 +277,7 @@ O 3
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225057948-3089d2b6-0d9c-4116-9f03-5a8af55c968a.png" height=180>
+    <img src="https://user-images.githubusercontent.com/75410443/225057948-3089d2b6-0d9c-4116-9f03-5a8af55c968a.png" height=250>
 </div>
 
 **Explanation**
@@ -311,8 +311,9 @@ T 1
 **Explanation**
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png" height=220>
+    <img src="https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png" height=250>
 </div>
+
 After the third tetromino came, the bottom line is completely filled therefore eliminated. So, the final field will be like the above picture. 
 
 #### Sample 3
@@ -339,8 +340,9 @@ L 2
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225188779-ef24af4c-5503-4afb-83f4-aac38a2fc92f.png" height=220>
+    <img src="https://user-images.githubusercontent.com/75410443/225188779-ef24af4c-5503-4afb-83f4-aac38a2fc92f.png" height=250>
 </div>
+
 
 **Explanation**
 
@@ -375,9 +377,10 @@ I 0
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/226834379-c9a0d6e1-4de6-4e7b-862a-6e3a1bf1bbbf.png" height=220>
-    <img src="https://user-images.githubusercontent.com/75410443/226834424-14c558c6-c9a9-47df-97ce-d1f9d0b1ce9a.png" height=220>
+    <img src="https://user-images.githubusercontent.com/75410443/226834379-c9a0d6e1-4de6-4e7b-862a-6e3a1bf1bbbf.png" height=275>
+    <img src="https://user-images.githubusercontent.com/75410443/226834424-14c558c6-c9a9-47df-97ce-d1f9d0b1ce9a.png" height=275>
 </div>
+
 
 **Explanation**
 
