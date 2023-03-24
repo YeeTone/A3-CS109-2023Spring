@@ -98,7 +98,7 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
 
 The first line gives $n,m,k$.
 
-Then the following $m$ lines define $x_i,y_i$, the positions of Desolator.
+Then the following $m$ lines define $x_i,y_i$, the positions of Desolators.
 
 Then following $k$ lines define $o_i,p_i$, the positions of Grand Cannons.
 
@@ -144,7 +144,7 @@ Considering blocks in pink i.e. (0,0) and (3,4) are captured by Grand Cannons, t
 - For $100\%$ testcases, $1 \le n \le 100$, $0 \le m,k \le 25$, $0 \le m+k \le 25$, $-50 \le x_i, y_i, o_i, p_i \le 150$.
 
 ## Problem 3. Hatsune Miku's Puzzle(Hard, 30 points)
-One day, you invite [Hatsune Miku(初音未来)](https://zh.moegirl.org.cn/%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5) to sing a song for you. Miku accepts this invitation, but she needs you to solve a puzzle about matrix first. If you can solve this puzzle of Miku, she is very pleased to dance and sing a song named [Senbon Zakura(千本樱)](https://zh.moegirl.org.cn/%E5%8D%83%E6%9C%AC%E6%A8%B1) for you!
+One day, you invite [Hatsune Miku(初音未来)](https://zh.moegirl.org.cn/%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5) to sing a song for you. Miku accepts this invitation, but she needs you to solve a puzzle about matrix first. If you can solve this puzzle of Miku, she is very pleased to dance and sings a song named [Senbon Zakura(千本樱)](https://zh.moegirl.org.cn/%E5%8D%83%E6%9C%AC%E6%A8%B1) for you!
 
 In this problem, you are required to fill in the matrix of size $m × n$. Miku gives you the matrix size $m$, $n$ and a compressed String $s$ containing lower letters and numbers. And you need to do the following tasks in this problem:
 
