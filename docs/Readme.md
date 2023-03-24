@@ -63,6 +63,7 @@ ooooo
     <img src="https://user-images.githubusercontent.com/109658172/225224598-19549bcf-e1e2-4de6-8602-7e531e333d2b.png" height=200>
 </div>
 
+
 2. For $100\%$ testcases, $1 \le n \le 100$, $0 \le x,y \lt n$.
 
 ## Problem 2. Safe Areas in RA2 Battlefield(Medium, 20 points)
@@ -80,16 +81,18 @@ Here is the introduction to Desolators and Grand Cannons in this problem:
 - Desolator: The Desolator uses a radiation cannon to irradiate the ground around him(blocks in green), damaging all units around him.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/225911131-4dc3c9a4-269e-48dc-87b9-ce6a5d29a8be.png" height=200>
-   <img src="https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png"  height=200>
+    <img src="https://user-images.githubusercontent.com/64548919/225911131-4dc3c9a4-269e-48dc-87b9-ce6a5d29a8be.png" height=190>
+   <img src="https://user-images.githubusercontent.com/64548919/223599396-d57b7510-a661-4b4d-baed-11ac6ebfcd73.png"  height=190>
 </div>
+
 
 - Grand Cannon: The Grand Cannon is a larse artillery gun firing powerful heavy shells to an extreme range and causes considerable damage in the target area(blocks in red). However, it has a minimum range and cannot damage the enemy around it. Considering it is a defensive tower, the area captured by it(block in pink) is also unsafe.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/64548919/225942029-8cd235f3-6272-467b-9829-80a37fa2b09e.png" height=200>
-   <img src="https://user-images.githubusercontent.com/64548919/224633639-d24aad0b-effa-4d7e-b972-76fb41075e80.png"  height=200>
+    <img src="https://user-images.githubusercontent.com/64548919/225942029-8cd235f3-6272-467b-9829-80a37fa2b09e.png" height=190>
+   <img src="https://user-images.githubusercontent.com/64548919/224633639-d24aad0b-effa-4d7e-b972-76fb41075e80.png"  height=190>
 </div>
+
 
 ### Input Format
 
@@ -143,9 +146,7 @@ Considering blocks in pink i.e. (0,0) and (3,4) are captured by Grand Cannons, t
 ## Problem 3. Hatsune Miku's Puzzle(Hard, 30 points)
 One day, you invite [Hatsune Miku(初音未来)](https://zh.moegirl.org.cn/%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5) to sing a song for you. Miku accepts this invitation, but she needs you to solve a puzzle about matrix first. If you can solve this puzzle of Miku, she is very pleased to dance and sing a song named [Senbon Zakura(千本樱)](https://zh.moegirl.org.cn/%E5%8D%83%E6%9C%AC%E6%A8%B1) for you!
 
-In this problem, you are required to fill in the matrix of size $m × n$.
-Miku gives you the matrix size $m$, $n$ and a compressed String $s$ containing lower letters and numbers. 
-And you need to do the following tasks in this problem:
+In this problem, you are required to fill in the matrix of size $m × n$. Miku gives you the matrix size $m$, $n$ and a compressed String $s$ containing lower letters and numbers. And you need to do the following tasks in this problem:
 
 (1) Decompress the compressed String. The String $s$ is compressed in the form of letters $c_i$ and repeat times $n_i$. After decompression, the length of String $s'$ is guaranteed to equal $m*n$ in our testcases i.e. $\sum_{i=0}{n_i}=length(s')=m*n$. For instance, `a6` can be decompressed into `aaaaaa` since $c_0=a$ and $n_0=6$, and `a1b4` can be decompressed into `abbbb` since $c_0=a$ and $n_0 = 1$, $c_1=b$ and $n_1=4$.
 
