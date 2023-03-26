@@ -230,7 +230,7 @@ In our trivial version of Tetris, there are several things that you should know:
 Below is the 7 types of tetrominoes in our trivial tetris game.
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225082858-e90f017c-2377-4a38-95a9-8705d9bfe5b3.png" height=300>
+    <img src="https://user-images.githubusercontent.com/75410443/227778258-4db69b23-797e-462d-aa16-09ad2e20488c.png">
 </div>
 
 
@@ -277,7 +277,7 @@ O 3
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225057948-3089d2b6-0d9c-4116-9f03-5a8af55c968a.png" height=250>
+    <img src="https://user-images.githubusercontent.com/75410443/227778330-d21bf6a4-3f7f-4d69-845d-211d91ebbb63.png">
 </div>
 
 **Explanation**
@@ -311,7 +311,7 @@ T 1
 **Explanation**
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225057754-19b03c7f-5279-44d0-b719-a59163b5d51b.png" height=250>
+    <img src="https://user-images.githubusercontent.com/75410443/227778353-d4980366-834f-47a7-bf9a-14e7983bbea2.png">
 </div>
 
 After the third tetromino came, the bottom line is completely filled therefore eliminated. So, the final field will be like the above picture. 
@@ -340,7 +340,7 @@ L 2
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/225188779-ef24af4c-5503-4afb-83f4-aac38a2fc92f.png" height=250>
+    <img src="https://user-images.githubusercontent.com/75410443/227778389-cc6fb046-2cc4-4838-a107-c521e5730e79.png">
 </div>
 
 
@@ -377,14 +377,15 @@ I 0
 ```
 
 <div align="">
-    <img src="https://user-images.githubusercontent.com/75410443/226834379-c9a0d6e1-4de6-4e7b-862a-6e3a1bf1bbbf.png" height=275>
-    <img src="https://user-images.githubusercontent.com/75410443/226834424-14c558c6-c9a9-47df-97ce-d1f9d0b1ce9a.png" height=275>
+    <img src="https://user-images.githubusercontent.com/75410443/227778403-e5e463fd-68e5-4f7d-9da8-91fcea8c9208.png">
+    <img src="https://user-images.githubusercontent.com/75410443/227778415-62982173-fae0-487c-b6c7-71565e066f8a.png">
+
 </div>
 
 
 **Explanation**
 
-When the second to last tetromino came, it actually exceeded the upper bound of the field. However, line 1 was completely filled at the same time. Therefore line 1 was eliminated, and the game was not terminated. The final output should be like the bottom figure.
+When the second to last tetromino came, it actually exceeded the upper bound of the field. However, line 1 was completely filled at the same time. Therefore line 1 was eliminated, and the game was not terminated. The final output should be like the figure on the right.
 
 ### Hint
 * You can create a **2-D array** to represent the field. 
