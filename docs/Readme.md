@@ -19,7 +19,7 @@ Siri is a CSE student who loves playing games, recently he is obsessed with *Min
 Before you develop this program, here are the preliminaries you should know:
 
 - The game board provide to you will be in the form of $n×n$, where mine squares will be presented in lower case English letter 'x' and safe squares will be presented in lower case English letter 'o'.
-- You will be provided with a specific coordinate which indicates a square on the board. The output must be the detail of the corresponding square. If the square is a mine square, you should output '-1', otherwise you must calculate how many mines are surround it and output the number of surrounding mines.
+- You will be provided with a specific coordinate which indicates a square on the board. The output must be the detail of the corresponding square. If the square is a mine square, you should output '-1', otherwise you must calculate how many mines are surround it (include the diagonal positions) and output the number of surrounding mines.
 
 By finishing this problem, we believe you will be an expert on *Mine Sweeper* one day!
 
