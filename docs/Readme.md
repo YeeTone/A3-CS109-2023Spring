@@ -1,8 +1,6 @@
 # Assignment 3
 
 ## Contributor List
-> Leader: Qing WANG
->
 > Problem 1: Sirui LI
 >
 > Problem 2: Yitong WANG
